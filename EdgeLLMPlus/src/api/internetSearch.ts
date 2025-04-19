@@ -9,7 +9,7 @@ export const handleInternetSearch = async (query: string) => {
   }
 
   try {
-    const apiKey = "AIzaSyCEO6bf7Gy9mGksYS-zUnxEU9otd87zj4o";
+    const apiKey = "add yours";
     const searchEngineId = "45bf9b519406645f3";
     const response = await axios.get(
       `https://www.googleapis.com/customsearch/v1?q=${encodeURIComponent(
